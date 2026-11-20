@@ -1,0 +1,2 @@
+The current prototype uses fixed CSV files and does not yet support secure file uploads, persistent storage, or automated scheduled reconciliation. It matches transactions primarily using transaction IDs and simplified date and rounding rules, so production use would require robust currency handling, configurable settlement windows, audit logs, and exception workflows. The application is not integrated with live payment gateways or bank APIs and would require authentication, authorization, encryption, monitoring, and security testing before handling real financial data.
+
